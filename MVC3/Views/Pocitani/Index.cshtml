@@ -1,0 +1,57 @@
+﻿@model KuryrViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<form asp-controller="Pocitani" asp-action="VytvorKuryra" method="post">
+	<div>
+		<label>Jmeno</label>
+		<input asp-for="jmeno" type="text" />
+	</div>
+
+	<div>
+		<label>Trzba</label>
+		<input asp-for="trzba" type="number" />
+	</div>
+
+	<div>
+		<label>Dyska</label>
+		<input asp-for="dyska" type="number" />
+	</div>
+
+	<div>
+		<label>Penezenka</label>
+		<input asp-for="penezenka" type="number" />
+	</div>
+
+	<div>
+		<label>Tankovani</label>
+		<input asp-for="tankovani" type="number" />
+	</div>
+
+	<div>
+		<label>Nakupovani</label>
+		<input asp-for="nakupovani" type="number" />
+	</div>
+
+	<div>
+		<button type="submit">Odeslat</button>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
